@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 p{
-    text-align: justify;
+    text-align: justify-center;
 }
 header {
     background-color: #282c34;
@@ -139,8 +139,9 @@ main {
 
 .intro p {
     margin-top: 15px;
-    color: #fd1111;
+    color: #0aaff0;
     font-size: 18px;
+     text-align: center;
 }
 
 .intro-img {
@@ -245,4 +246,24 @@ nav ul li {
         text-align: center;
         padding: 10px 0;
     }
+}
+/* Footer styling */
+footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Footer styling */
+footer p{
+    background-color: #282c34;
+    color: #fff;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px 20px; /* Add padding for spacing */
+    margin-top: 20px; /* Space above the footer */
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the footer takes the full width of the page */
+    position: relative; /* Adjust positioning if necessary */
 }
